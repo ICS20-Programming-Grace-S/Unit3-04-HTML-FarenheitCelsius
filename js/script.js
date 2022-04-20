@@ -13,5 +13,5 @@ function calculateCelsius() {
   let celsius = (fahrenheit - 32) * 5/9
   
   // output
-  document.getElementById('celsius-answers').innerHTML = 'The temperature celsius is: ' + celsius.toFixed(2) + ' ° '
+  document.getElementById('celsius-answers').innerHTML = 'The temperature in celsius is: ' + celsius.toFixed(2) + ' ° '
 }
